@@ -43,7 +43,7 @@ R -q -e "source('R/02_analyse_polarisation.R')"
 ---
 
 
-### Optional extensions (day 5–7)
+### Optional extensions 
 - Run sensitivity with/without `none` class.
 - Try regularised models (L2) and interactions `toxicity × sarcasm`.
 - Swap in larger climate datasets or add sentiment as a covariate.
