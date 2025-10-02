@@ -1,0 +1,38 @@
+---
+title: "Climate Polarisation = f(Stance, Sarcasm, Toxicity)"
+author: "Your Name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+pdf_document: default
+html_document: default
+---
+
+
+# Motivation
+We combine **stance** (climate change) with automatic **sarcasm** and **toxicity** scoring to examine links to **polarisation**.
+
+
+# Data & Models
+- **TweetEval (stance_climate)**: labels {none, against, favor}.
+- **CardiffNLP irony**: roBERTa-based binary irony model.
+- **Detoxify (unbiased)**: toxicity, insult, identity attack, etc.
+
+
+# Methods
+1. Python infers sarcasm and toxicity for each tweet; export tidy CSV.
+2. R: (i) descriptive group means; (ii) logit (extreme vs neutral) and multinomial models; (iii) ER-style polarisation proxy over stance distribution with bootstrap CIs.
+
+
+# Results (fill with your run)
+- Q1 (sarcasm by stance): include Figure 1.
+- Q2 (toxicity → extremity): include Figure 2.
+- Q3 (stance polarisation): include Figure 3 + ER value and CI.
+
+
+# Robustness & Notes
+- Removing neutrals; scaling predictors; alternative ER parameters (α).
+- Cautions: small dataset; domain shift; model error.
+
+
+# Reproducibility
+R session info, package versions, and Python environment are provided via `requirements.txt` and (optional) `renv`.

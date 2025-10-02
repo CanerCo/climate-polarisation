@@ -1,0 +1,8 @@
+datasets>=3.0.0
+transformers>=4.44
+torch
+pandas
+numpy
+tqdm
+detoxify>=0.5
+scikit-learn

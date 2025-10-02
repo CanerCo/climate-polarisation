@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# R
+.Rhistory
+.Rproj.user/
+renv/library/
+# Data/outputs
+data/
+fig/
+paper/*.pdf
+paper/*.html
+# OS
+.DS_Store
+EOF
