@@ -1,10 +1,10 @@
 # Climate Polarisation = f(Stance, Sarcasm, Toxicity)
 
 
-**One‑week, fully reproducible mini‑project** showing you can run automated content analysis and deliver theory‑linked polarisation metrics from social‑media text.
+**fully reproducible mini‑project** with automated content analysis and deliver theory‑linked polarisation metrics from social‑media text.
 
 
-## What you get
+## Research Questions
 - **Q1**: Is sarcasm more prevalent in *against* vs *favor* climate tweets?
 - **Q2**: Does **toxicity** predict stance **extremity** (non‑neutral)?
 - **Q3**: How polarised is the stance distribution (ER‑style index with CIs)?
