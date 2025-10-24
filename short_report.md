@@ -1,6 +1,6 @@
 ---
 title: "Climate Polarisation from Stance, Sarcasm, and Toxicity"
-date: "October 01, 2025"
+date: "January 01, 2024"
 ---
 
 ## Motivation
